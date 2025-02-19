@@ -1,0 +1,58 @@
+body {
+  background: #082528;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+#navbar {
+  font-size: 1.2rem;
+  font-weight: 100;
+ 
+}
+
+#navbar .nav-link {
+  color: white;
+}
+
+#navbar .nav-link:hover {
+  color: #354259;
+}
+
+.navbar.scrolled {
+  background: #082528;
+  transition: background 200ms;
+}
+
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.blurb h2 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.blurb p {
+  font-size: 1.125rem;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#animals,
+#about {
+  padding-top: 200px; /* Sesuaikan dengan tinggi navbar */
+  margin-top: -100px; /* Untuk mengompensasi padding */
+}
+
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+}
